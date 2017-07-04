@@ -1,0 +1,105 @@
+.main {
+  min-width: 1060px;
+}
+
+.Grobal-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  min-width: 560px;
+}
+
+.header-inner {
+  height: 50px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+.header-logo {
+  width: 150px;
+}
+
+.header-menu {
+  font-size: 24px;
+  letter-spacing: 1px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.header-menu a {
+  color: #fff;
+  padding: 7px 30px;
+  border-left: 1px solid #fff;
+  transition: 0.2s;
+}
+
+.header-menu a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.contact {
+  overflow-y: visible;
+}
+
+
+
+
+.footer {
+  color: #FF9B37;
+  height: 300px;
+  padding-top: ;
+  background-color: #111;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-left {
+  font-size: 20px;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+
+.info-dance {
+  margin-top: 30px;
+}
+
+.info-dance li {
+  margin-bottom: 5px;
+}
+
+.info-url {
+  color: #fff;
+}
+
+.twitter-url {
+  padding-left: 5px;
+  border-left: 3px solid #55acee;
+}
+
+.twitter-url:hover {
+  color: #55acee;
+}
+
+.youtube-url {
+  padding-left: 5px;
+  border-left: 3px solid #cd201f;
+}
+
+.youtube-url:hover {
+  color: #cd201f;
+}
+
+.copyright {
+  margin-top: 70px;
+  font-size: 15px;
+  color: #FF9B37;
+}

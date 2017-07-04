@@ -1,0 +1,70 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%;
+  position: relative;
+  left: 0;
+
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  font-family: futura-pt,"游ゴシック","Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto ,  "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+  line-height: 1.6em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+  letter-spacing: 1px;
+}
+
+dd,
+dl,
+dt,
+li,
+p,
+td,
+th,
+tr,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
