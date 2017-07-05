@@ -1,0 +1,40 @@
+.Grobal-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  min-width: 560px;
+}
+
+.header-inner {
+  height: 50px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(30, 30, 30, 0.9);
+}
+
+.header-logo {
+  width: 150px;
+}
+
+.header-menu {
+  font-size: 24px;
+  letter-spacing: 1px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.header-menu a {
+  color: #fff;
+  padding: 7px 30px;
+  border-left: 1px solid #fff;
+  transition: 0.2s;
+}
+
+.header-menu a:hover {
+  color: #000;
+  background-color: #fff;
+}
