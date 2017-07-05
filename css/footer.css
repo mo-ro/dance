@@ -1,6 +1,6 @@
 .footer {
   color: #FF9B37;
-  height: 300px;
+  height: auto;
   padding-top: ;
   background-color: #111;
   display: -webkit-flex;
@@ -50,4 +50,16 @@
   margin-top: 70px;
   font-size: 15px;
   color: #FF9B37;
+}
+
+@media (max-width:1000px) {
+  
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .footer-left {
+    padding-right: 0;
+  }
 }
