@@ -333,7 +333,7 @@
   }
 
   .genre-inner-title {
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 5px;
     padding-bottom: 10px;
   }
@@ -341,6 +341,10 @@
   .main-letters {
     opacity: 1;
     transition: 0s;
+  }
+  
+  .genre-detail {
+    font-size: 20px;
   }
 
   .genre-images {
@@ -377,7 +381,7 @@
   .practice-content {
     text-align: center;
     color: #fff;
-    width: 80%;
+    width: 100%;
     height: auto;
     /*background-color: blue;*/
     margin: auto;
@@ -385,7 +389,7 @@
 
   .practice-content-title {
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 25px;
     color: #fff;
     text-align: center;
   }
@@ -394,25 +398,26 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     margin-top: 30px;
   }
 
   .practice-content-up p {
     padding-right: 0px;
-    font-size: 25px;
-    line-height: 45px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .practice-content-down {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 30px;
   }
 
   .practice-content-down p {
-    font-size: 25px;
-    line-height: 45px;
+    font-size: 20px;
+    line-height: 30px;
     padding-left: 0px;
     text-align: center;
   }

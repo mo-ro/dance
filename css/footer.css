@@ -1,5 +1,5 @@
 .footer {
-  color: #FF9B37;
+  color: #fff;
   height: auto;
   padding-top: ;
   background-color: #111;
@@ -61,5 +61,6 @@
   
   .footer-left {
     padding-right: 0;
+    font-size: 18px;
   }
 }
