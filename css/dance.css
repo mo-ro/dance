@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
+
 * {
   font-family: 'Noto Sans JP';
 }
@@ -209,7 +210,7 @@
   text-align: center;
   color: #fff;
   width: 80%;
-  height: 680px;
+  height: auto;
   /*background-color: blue;*/
   margin: auto;
 }
