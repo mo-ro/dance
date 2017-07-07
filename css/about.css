@@ -1,5 +1,4 @@
 .main {
-  min-width: 1060px;
 }
 
 .about-contents {
@@ -13,10 +12,18 @@
   border-bottom: 1px solid #fff;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .about-content {
   margin-top: 20px;
   font-size: 20px;
   margin-left: 30px;
+}
+
+.intro {
+  margin-top: 10px;
 }
 
 .members {
@@ -30,5 +37,14 @@
 
 .access {
   padding-bottom: 50px;
+}
+
+@media (max-width:768px) {
+  
+  .about-content {
+    width: 90%;
+    font-size: 18px;
+  }
+  
 }
 

@@ -60,8 +60,9 @@
   }
   
   .footer-left {
+    width: 90%;
     padding-right: 0;
-    font-size: 18px;
+    font-size: 14px;
   }
   
   .footer-right iframe {

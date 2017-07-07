@@ -9,15 +9,16 @@
   justify-content: center;
 }
 
+
 .top-inner-image img {
   width: 500px;
 }
 
 .top-inner-title h1 {
   color: #fff;
-
+  width: 500px;
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   /*letter-spacing: 0px;*/
 }
 
@@ -284,6 +285,16 @@
   -webkit-transform: translate(0, 0);
 }
 
+@media (max-width:1000px) {
+  .top-inner-image img {
+    width: 400px;
+  }
+
+  .top-inner-title h1 {
+    font-size: 30px;
+    width: 400px;
+  }
+}
 
 
 
@@ -298,7 +309,8 @@
   }
   
   .top-inner-title h1 {
-    font-size: 30px;
+    font-size: 25px;
+    width: 100%;
   }
   
   .main-content {
@@ -317,6 +329,14 @@
     width: 85%;
     margin-right: 0;
     margin-bottom: 50px;
+  }
+  
+  .news-title {
+    font-size: 25px;
+  }
+  
+  .news-topic {
+    font-size: 15px;
   }
   
   .tweet {
@@ -349,6 +369,18 @@
   
   .genre-detail {
     font-size: 20px;
+      font-weight: normal;
+  }
+  
+  .genre-detail::after {
+    transform: rotate(45deg);
+    content: "";
+    width: 8px;
+    height: 8px;
+    margin-top: 10px;
+    border-top: 2px solid #67C1DA;
+    border-right: 2px solid #67C1DA;
+    position: absolute;
   }
 
   .genre-images {
@@ -368,8 +400,8 @@
   .genre-instruction {
     margin: 0 30px;
     padding: 10px 0 30px 0;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 27px;
+    font-size: 18px;
     border-top: 1px solid #fff;
     opacity: 1;
     transition: 0s;
@@ -392,7 +424,7 @@
   }
 
   .practice-content-title {
-    padding-top: 10px;
+    padding-top: 0px;
     font-size: 25px;
     color: #fff;
     text-align: center;
@@ -403,13 +435,14 @@
     align-items: center;
     flex-direction: column-reverse;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .practice-content-up p {
     padding-right: 0px;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 20px;
   }
 
   .practice-content-down {
@@ -420,10 +453,11 @@
   }
 
   .practice-content-down p {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 27px;
     padding-left: 0px;
     text-align: center;
+    margin-top: 20px;
   }
 
   .practice-img-right {
