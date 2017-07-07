@@ -1,6 +1,8 @@
-.main {
-}
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 
+* {
+  font-family: 'Noto Sans JP';
+}
 
 .contact {
   overflow-y: visible;

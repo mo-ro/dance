@@ -46,10 +46,8 @@
   color: #cd201f;
 }
 
-.copyright {
-  margin-top: 70px;
-  font-size: 15px;
-  color: #FF9B37;
+.footer-right {
+  padding: 30px 0;
 }
 
 @media (max-width:768px) {

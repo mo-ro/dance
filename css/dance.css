@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+* {
+  font-family: 'Noto Sans JP';
+}
+
 .top-inner {
   height: 800px;
   background-image: url("../img/top-img.jpg");
@@ -59,6 +65,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 .news {
@@ -341,6 +348,7 @@
   
   .tweet {
     margin-bottom: 50px;
+    display: none;
   }
   
   .genre-filter {
@@ -400,8 +408,8 @@
   .genre-instruction {
     margin: 0 30px;
     padding: 10px 0 30px 0;
-    line-height: 27px;
-    font-size: 18px;
+    line-height: 25px;
+    font-size: 16px;
     border-top: 1px solid #fff;
     opacity: 1;
     transition: 0s;
@@ -440,8 +448,8 @@
 
   .practice-content-up p {
     padding-right: 0px;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 25px;
     margin-top: 20px;
   }
 
@@ -453,8 +461,8 @@
   }
 
   .practice-content-down p {
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 25px;
     padding-left: 0px;
     text-align: center;
     margin-top: 20px;

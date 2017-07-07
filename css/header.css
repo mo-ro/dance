@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 .Grobal-header {
   position: fixed;
   width: 100%;
@@ -19,7 +21,11 @@
 }
 
 .header-logo {
-  width: 150px;
+  font-family: 'Permanent Marker', cursive;
+  /*width: 150px;*/
+  letter-spacing: 5px;
+  font-size: 50px;
+  color: #fff;
 }
 
 .header-menu {

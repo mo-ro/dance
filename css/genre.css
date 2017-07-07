@@ -1,3 +1,11 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+@import url('https://fonts.googleapis.com/css?family=Lato:900i');
+
+* {
+  font-family: 'Noto Sans JP';
+  
+}
+
 .main {
   background-color: #222;
   padding-top: 50px;
@@ -5,7 +13,7 @@
 }
 
 .genre-content {
-  height: 760px;
+  height: 800px;
   background-color: #222;
   border-bottom: 1px solid #fff;
 }
@@ -14,7 +22,7 @@
   color: #fff;
   font-size: 70px;
   font-weight: bold;
-  letter-spacing: 3px;
+  letter-spacing: 0px;
   padding-top: 40px;
   padding-left: 40px;
   opacity: 0;
@@ -22,10 +30,12 @@
   -webkit-transform: translate(100px, 0);
   transition: 2s;
   display: inline-block;
+  font-family: 'Lato', sans-serif;
 }
 
 .initial {
   font-size: 150px;
+    font-family: 'Lato', sans-serif;
 }
 
 .genre-inner {
@@ -52,13 +62,15 @@
   margin-top: 20px;
 }
 
+
+
 .mv01 {
   opacity: 1;
   transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
 }
 
-@media (max-width:768px) {
+@media (max-width:1000px) {
   
   .genre-content {
     height: auto;
@@ -100,6 +112,8 @@
   
   .genre-infomation {
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
   }
   
 }
