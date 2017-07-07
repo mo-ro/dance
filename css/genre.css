@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
-@import url('https://fonts.googleapis.com/css?family=Lato:900i');
+@import url('https://fonts.googleapis.com/css?family=Acme');
 
 * {
   font-family: 'Noto Sans JP';
@@ -30,12 +30,12 @@
   -webkit-transform: translate(100px, 0);
   transition: 2s;
   display: inline-block;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Acme', sans-serif;
 }
 
 .initial {
   font-size: 150px;
-    font-family: 'Lato', sans-serif;
+font-family: 'Acme', sans-serif;
 }
 
 .genre-inner {

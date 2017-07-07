@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
-
+@import url('https://fonts.googleapis.com/css?family=Acme');
 .Grobal-header {
   position: fixed;
   width: 100%;
@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: rgba(30, 30, 30, 0.9);
+
 }
 
 .header-blank {
@@ -37,6 +38,7 @@
 }
 
 .header-menu a {
+    font-family: 'Acme', sans-serif;
   color: #fff;
   padding: 7px 30px;
   border-left: 1px solid #fff;
