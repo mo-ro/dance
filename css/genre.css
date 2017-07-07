@@ -1,5 +1,4 @@
 .main {
-  min-width: 1060px;
   background-color: #222;
   padding-top: 50px;
   height: auto;
@@ -57,4 +56,50 @@
   opacity: 1;
   transform: translate(0, 0);
   -webkit-transform: translate(0, 0);
+}
+
+@media (max-width:768px) {
+  
+  .genre-content {
+    height: auto;
+  }
+  
+  .initial {
+    font-size: 90px;
+  }
+  
+  .genre-title {
+    font-size: 50px;
+    padding: 0;
+    opacity: 1;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transition: 0s;
+    letter-spacing: 0;
+  }
+  
+  .genre-inner {
+    flex-direction: column;
+  }
+  
+  .genre-left {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .genre-right {
+    width: 90%;
+  }
+  
+  
+  .genre-right iframe {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  
+  .genre-infomation {
+    font-size: 20px;
+  }
+  
 }

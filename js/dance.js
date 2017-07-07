@@ -51,5 +51,7 @@ $(function() {
 		else{
 			$(this).stop().removeClass('mv01');
 		}
-	}); 
+	});
+	
+	
 });

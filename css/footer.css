@@ -52,7 +52,7 @@
   color: #FF9B37;
 }
 
-@media (max-width:1000px) {
+@media (max-width:768px) {
   
   .footer {
     flex-direction: column;
@@ -62,5 +62,9 @@
   .footer-left {
     padding-right: 0;
     font-size: 18px;
+  }
+  
+  .footer-right iframe {
+    width: 300px;
   }
 }
