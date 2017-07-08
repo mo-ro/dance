@@ -130,8 +130,7 @@
 }
 
 .genre-detail:hover {
-  height: 32px;
-  margin-bottom: 4px;
+  height: 35px;
   border-bottom: 2px solid #2EB9CF;
   cursor: pointer;
 }
@@ -183,7 +182,7 @@
 }
 
 .genre-instruction {
-  margin: 30px 50px 0 50px;
+  margin: 10px 50px 0 50px;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 24px;
@@ -366,7 +365,7 @@
   }
 
   .genre-inner-title {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 5px;
     padding-bottom: 10px;
   }
@@ -379,6 +378,7 @@
   .genre-detail {
     font-size: 20px;
       font-weight: normal;
+      width: 100px;
   }
   
   .genre-detail::after {
@@ -390,6 +390,12 @@
     border-top: 2px solid #67C1DA;
     border-right: 2px solid #67C1DA;
     position: absolute;
+  }
+  
+  .genre-detail:hover {
+    height: 27px;
+    margin-bottom: 0px;
+    
   }
 
   .genre-images {

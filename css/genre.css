@@ -82,7 +82,7 @@ font-family: 'Acme', sans-serif;
   
   .genre-title {
     font-size: 50px;
-    padding: 0;
+    padding: 10px 0 0 0;
     opacity: 1;
     transform: translate(0, 0);
     -webkit-transform: translate(0, 0);
@@ -113,8 +113,8 @@ font-family: 'Acme', sans-serif;
   }
   
   .genre-infomation {
-    font-size: 20px;
-    margin-top: 10px;
+    font-size: 16px;
+    margin-top: 15px;
     margin-bottom: 30px;
   }
   
