@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  -webkit-overflow-scrolling: touch;
+  /*-webkit-overflow-scrolling: touch;*/
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
